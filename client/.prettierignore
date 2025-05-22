@@ -1,0 +1,30 @@
+# Ignore build outputs
+dist/
+build/
+
+# Node modules
+node_modules/
+
+# Environment files
+.env
+.env.* 
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Vite config cache
+.vite/
+
+# Optional: test snapshots
+**/__snapshots__/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore generated files
+public/
+
+# Ignore system files
+.DS_Store
